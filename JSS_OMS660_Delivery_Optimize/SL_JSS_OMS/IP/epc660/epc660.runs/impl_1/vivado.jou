@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2318053 on Mon Oct  1 21:44:26 MDT 2018
+# Start of session at: Thu Aug 20 06:08:06 2020
+# Process ID: 58816
+# Current directory: C:/JSS_OMS660_Delivery200227/SL_JSS_OMS/IP/epc660/epc660.runs/impl_1
+# Command line: vivado.exe -log jss_oms_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source jss_oms_top.tcl -notrace
+# Log file: C:/JSS_OMS660_Delivery200227/SL_JSS_OMS/IP/epc660/epc660.runs/impl_1/jss_oms_top.vdi
+# Journal file: C:/JSS_OMS660_Delivery200227/SL_JSS_OMS/IP/epc660/epc660.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source jss_oms_top.tcl -notrace

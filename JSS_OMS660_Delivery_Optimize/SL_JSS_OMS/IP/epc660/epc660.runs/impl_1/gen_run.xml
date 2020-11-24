@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1597916953">
+  <File Type="BITSTR-BMM" Name="jss_oms_top_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="jss_oms_top_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="jss_oms_top_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="jss_oms_top_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="jss_oms_top.tcl"/>
+  <File Type="OPT-TIMING" Name="jss_oms_top_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="jss_oms_top_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="jss_oms_top_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="jss_oms_top_reports.tcl"/>
+  <File Type="OPT-DRC" Name="jss_oms_top_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="jss_oms_top.hwdef"/>
+  <File Type="PWROPT-DCP" Name="jss_oms_top_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="jss_oms_top_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="jss_oms_top_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="jss_oms_top_placed.dcp"/>
+  <File Type="PLACE-IO" Name="jss_oms_top_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="jss_oms_top_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="jss_oms_top_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="jss_oms_top_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="jss_oms_top_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="jss_oms_top_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="jss_oms_top_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="jss_oms_top.bgn"/>
+  <File Type="PLACE-TIMING" Name="jss_oms_top_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="jss_oms_top_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="jss_oms_top.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="jss_oms_top_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="jss_oms_top_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="jss_oms_top_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="jss_oms_top.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="jss_oms_top_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="jss_oms_top_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="jss_oms_top_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="jss_oms_top_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="jss_oms_top_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="jss_oms_top_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="jss_oms_top.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="jss_oms_top_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="jss_oms_top.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="jss_oms_top_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="jss_oms_top_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="jss_oms_top.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="jss_oms_top_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="jss_oms_top_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="jss_oms_top_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="jss_oms_top_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="jss_oms_top_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="jss_oms_top_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="jss_oms_top_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="jss_oms_top_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="jss_oms_top_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="jss_oms_top_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="jss_oms_top_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="jss_oms_top_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="jss_oms_top_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="jss_oms_top_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="jss_oms_top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="jss_oms_top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="jss_oms_top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="jss_oms_top_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="jss_oms_top_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="jss_oms_top.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="jss_oms_top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="jss_oms_top.rbt"/>
+  <File Type="BITSTR-NKY" Name="jss_oms_top.nky"/>
+  <File Type="BG-DRC" Name="jss_oms_top.drc"/>
+  <File Type="RDI-RDI" Name="jss_oms_top.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ip_mux.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/op_demux.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clockMux1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clockMux2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clockMux3.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/vhdl/jss_oms_top.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="jss_oms_top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../src/cstrs/epc660.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../src/cstrs/epc660_pins.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/../src/cstrs/epc660.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

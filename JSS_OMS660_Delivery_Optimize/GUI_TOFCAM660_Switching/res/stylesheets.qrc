@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>stylesheets/mac.qss</file>
+        <file>stylesheets/main.qss</file>
+        <file>stylesheets/tablet.qss</file>
+    </qresource>
+</RCC>

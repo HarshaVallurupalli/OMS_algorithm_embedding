@@ -1,0 +1,15 @@
+#ifndef QUEUE_CONFIG_H_
+#define QUEUE_CONFIG_H_
+
+enum
+{
+	QUEUE_STATE_MACHINE,
+	QUEUE_TCP_ANSWER,
+	NUM_QUEUE
+};
+
+#define QUEUE_SIZE 4
+
+
+
+#endif /* QUEUE_CONFIG_H_ */

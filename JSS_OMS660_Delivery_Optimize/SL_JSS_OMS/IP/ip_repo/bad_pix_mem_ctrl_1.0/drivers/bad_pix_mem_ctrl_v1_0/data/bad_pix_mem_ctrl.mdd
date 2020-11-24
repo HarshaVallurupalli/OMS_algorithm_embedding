@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER bad_pix_mem_ctrl
+	OPTION supported_peripherals = (bad_pix_mem_ctrl);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = bad_pix_mem_ctrl;
+END DRIVER

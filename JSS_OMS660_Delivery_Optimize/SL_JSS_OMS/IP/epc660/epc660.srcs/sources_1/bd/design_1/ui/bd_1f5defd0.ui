@@ -1,0 +1,254 @@
+{
+   ExpandedHierarchyInLayout: "",
+   PinnedPorts: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 2780 -defaultsOSRD
+preplace port dclk_in1 -pg 1 -y 4290 -defaultsOSRD
+preplace port xsync_sat_in1 -pg 1 -y 3870 -defaultsOSRD
+preplace port vsync_in1 -pg 1 -y 3850 -defaultsOSRD
+preplace port dclk_in2 -pg 1 -y 4490 -defaultsOSRD
+preplace port xsync_sat_in2 -pg 1 -y 3990 -defaultsOSRD
+preplace port vsync_in2 -pg 1 -y 3970 -defaultsOSRD
+preplace port hsync_in -pg 1 -y 3700 -defaultsOSRD
+preplace port dclk_in3 -pg 1 -y 4510 -defaultsOSRD
+preplace port xsync_sat_in3 -pg 1 -y 4100 -defaultsOSRD
+preplace port vsync_in3 -pg 1 -y 4080 -defaultsOSRD
+preplace port FCLK_RESET0_N -pg 1 -y 2970 -defaultsOSRD
+preplace port IIC_1_0 -pg 1 -y 2820 -defaultsOSRD
+preplace port xsync_sat_in -pg 1 -y 3740 -defaultsOSRD
+preplace port hsync_in1 -pg 1 -y 3830 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 2800 -defaultsOSRD
+preplace port hsync_in2 -pg 1 -y 3950 -defaultsOSRD
+preplace port hsync_in3 -pg 1 -y 4060 -defaultsOSRD
+preplace port dclk_in -pg 1 -y 4270 -defaultsOSRD
+preplace port vsync_in -pg 1 -y 3720 -defaultsOSRD
+preplace port FCLK_CLK0 -pg 1 -y 2950 -defaultsOSRD
+preplace portBus data_in1 -pg 1 -y 3810 -defaultsOSRD
+preplace portBus data_in2 -pg 1 -y 3930 -defaultsOSRD
+preplace portBus data_in -pg 1 -y 3680 -defaultsOSRD
+preplace portBus data_in3 -pg 1 -y 4040 -defaultsOSRD
+preplace portBus gpio_io_o_0 -pg 1 -y 3790 -defaultsOSRD
+preplace portBus gpio_io_o_1 -pg 1 -y 3810 -defaultsOSRD
+preplace portBus gpio_io_o_2 -pg 1 -y 3830 -defaultsOSRD
+preplace portBus gpio_io_o_3 -pg 1 -y 3850 -defaultsOSRD
+preplace inst processing_system7_1 -pg 1 -lvl 8 -y 2860 -defaultsOSRD
+preplace inst blk_mem_gen_dcs -pg 1 -lvl 8 -y 570 -defaultsOSRD
+preplace inst axi_gpio_power_reset -pg 1 -lvl 6 -y 4020 -defaultsOSRD
+preplace inst data2ram_gs -pg 1 -lvl 6 -y 160 -defaultsOSRD
+preplace inst blk_mem_gen_gs -pg 1 -lvl 8 -y 240 -defaultsOSRD
+preplace inst axi_mem_intercon_1 -pg 1 -lvl 7 -y 3550 -defaultsOSRD
+preplace inst ip_mux_1 -pg 1 -lvl 1 -y 3890 -defaultsOSRD
+preplace inst axi_gpio_Sel1 -pg 1 -lvl 6 -y 3510 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 6 -y 3770 -defaultsOSRD
+preplace inst data2axistream_v1_0_3 -pg 1 -lvl 4 -y 630 -defaultsOSRD
+preplace inst axis_switch_2to1_0 -pg 1 -lvl 5 -y 440 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 7 -y 2600 -defaultsOSRD
+preplace inst axi_gpio_Sel2 -pg 1 -lvl 6 -y 3650 -defaultsOSRD -resize 223 120
+preplace inst xlconstant_2 -pg 1 -lvl 6 -y 3870 -defaultsOSRD
+preplace inst data2axistream_v1_0_4 -pg 1 -lvl 4 -y 250 -defaultsOSRD
+preplace inst axi_mem_intercon_3 -pg 1 -lvl 7 -y 3300 -defaultsOSRD
+preplace inst TOF_cos_sl_0 -pg 1 -lvl 3 -y 1330 -defaultsOSRD
+preplace inst blk_mem_gen_dbg_unit -pg 1 -lvl 7 -y 3034 -defaultsOSRD
+preplace inst axi_gpio_led -pg 1 -lvl 6 -y 2920 -defaultsOSRD
+preplace inst data2ram_dcs -pg 1 -lvl 6 -y 490 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 8 -y 4380 -defaultsOSRD
+preplace inst readRam_burst_1 -pg 1 -lvl 6 -y 2190 -defaultsOSRD
+preplace inst gpio_shutter -pg 1 -lvl 6 -y 3370 -defaultsOSRD
+preplace inst op_demux_0 -pg 1 -lvl 8 -y 3820 -defaultsOSRD
+preplace inst clockMux2_0 -pg 1 -lvl 1 -y 4510 -defaultsOSRD
+preplace inst ps7_1_axi_periph -pg 1 -lvl 5 -y 2780 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 6 -y 3220 -defaultsOSRD
+preplace inst clockMux3_0 -pg 1 -lvl 2 -y 4390 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -y 2580 -defaultsOSRD
+preplace inst reg_bank_0 -pg 1 -lvl 6 -y 1400 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 7 -y 2800 -defaultsOSRD
+preplace inst clockMux1_0 -pg 1 -lvl 1 -y 4290 -defaultsOSRD
+preplace inst sg_dma_intr_isolation -pg 1 -lvl 1 -y 1700 -defaultsOSRD
+preplace inst axi_dma_SG_sort -pg 1 -lvl 6 -y 2670 -defaultsOSRD
+preplace inst axi_bram_ctrl_dbg_unit -pg 1 -lvl 6 -y 3070 -defaultsOSRD
+preplace netloc ps7_1_axi_periph_M02_AXI 1 5 1 3100
+preplace netloc xlslice_2_Dout 1 3 3 N 1230 2500 160 N
+preplace netloc data2axistream_v1_0_4_m00_axis_tvalid 1 4 1 2540
+preplace netloc axis_switch_2to1_0_m00_axis_tvalid 1 5 1 3100
+preplace netloc data2ram_dcs_wr_addr_DO 1 6 2 NJ 510 4710
+preplace netloc axis_switch_2to1_0_m00_axis_tkeep 1 5 1 3120
+preplace netloc reg_bank_0_cc_rst_RO 1 2 5 1000J 740 1800J 850 NJ 850 NJ 850 3850
+preplace netloc blk_mem_gen_gs_doutb 1 5 3 3330J 320 NJ 320 N
+preplace netloc axis_switch_2to1_0_s01_axis_tready 1 4 1 2480
+preplace netloc TOF_cos_sl_0_dcs2_or_dcs3_pulse_SO 1 3 3 1710 50 NJ 50 3230J
+preplace netloc reg_bank_0_max_out_val_DO 1 2 5 960J 1980 NJ 1980 NJ 1980 NJ 1980 3920
+preplace netloc data2ram_gs_data_DO 1 2 5 740J -80 NJ -80 NJ -80 NJ -80 3860
+preplace netloc axi_smc_M00_AXI 1 7 1 4700
+preplace netloc TOF_cos_sl_0_tcmi_pixel_cnt_DO 1 3 5 NJ 1250 2560J 670 NJ 670 NJ 670 4660
+preplace netloc xsync_sat_in_1 1 0 1 -30J
+preplace netloc reg_bank_0_adc_ovrflow_en_SO 1 2 5 880J 690 1880J 780 2530J 750 3050J 710 4050
+preplace netloc data2axistream_v1_0_3_m00_axis_tdata 1 4 1 2420
+preplace netloc ps7_1_axi_periph_M06_AXI 1 5 1 3080
+preplace netloc dclk_in2_1 1 0 1 N
+preplace netloc xsync_sat_in2_1 1 0 1 0
+preplace netloc reg_bank_0_temp_comp_en_SO 1 2 5 780J -50 NJ -50 NJ -50 NJ -50 4090
+preplace netloc reg_bank_0_alu_dist_corr_DO 1 2 5 890J 720 1610J 950 NJ 950 3160J 770 3920
+preplace netloc readRam_burst_1_read_pulse_out_DO 1 2 5 770J 590 1920J 760 2510J 730 3030J 690 4140
+preplace netloc data2ram_dcs_rd_addr_DO 1 6 2 NJ 570 4710
+preplace netloc data2axistream_v1_0_3_m00_axis_tlast 1 4 1 2440
+preplace netloc data2ram_gs_wr_eof_done_SO 1 5 2 3270 -10 3850
+preplace netloc data2ram_dcs_rd_en_DO 1 6 2 NJ 590 4700
+preplace netloc data_in3_1 1 0 1 10
+preplace netloc op_demux_0_gpio_io_o_0 1 8 1 NJ
+preplace netloc util_vector_logic_5_Res 1 3 3 1670 390 2410J 240 3020
+preplace netloc reg_bank_0_ambient_en_SO 1 2 5 760J -60 NJ -60 NJ -60 NJ -60 4130
+preplace netloc reg_bank_0_adc_udrflow_en_SO 1 2 5 920J 710 1660J 930 NJ 930 3110J 740 4040
+preplace netloc axi_dma_SG_sort_s_axis_s2mm_tready 1 5 1 3090
+preplace netloc axi_gpio_Sel2_gpio_io_o 1 0 8 60 3660 470 4100 NJ 4100 NJ 4100 NJ 4100 NJ 4100 3860 3840 N
+preplace netloc op_demux_0_gpio_io_o_1 1 8 1 NJ
+preplace netloc reg_bank_0_temp_const_val_DO 1 2 5 810J 610 1910J 790 2550J 760 3060J 720 4000
+preplace netloc data2ram_dcs_wr_data_DO 1 6 2 NJ 530 N
+preplace netloc TOF_cos_sl_0_dist_offset_index_trunc_DO 1 3 3 NJ 1090 NJ 1090 3220
+preplace netloc axi_mem_intercon_3_M00_AXI 1 7 1 4710
+preplace netloc op_demux_0_gpio_io_o_2 1 8 1 N
+preplace netloc dclk_in1_1 1 0 1 N
+preplace netloc xlconcat_0_dout 1 3 3 1700 110 NJ 110 3210J
+preplace netloc sg_dma_intr_isolation_data_out 1 1 2 NJ 1700 N
+preplace netloc reg_bank_0_gs_comp_en_SO 1 2 5 990J 1940 NJ 1940 NJ 1940 NJ 1940 4000
+preplace netloc reg_bank_0_dbg_en_SI 1 2 5 1020J 1930 NJ 1930 NJ 1930 NJ 1930 3830
+preplace netloc TOF_cos_sl_0_DbgBram_Wen 1 3 4 1550 1920 NJ 1920 3010J 2470 4100J
+preplace netloc op_demux_0_gpio_io_o_3 1 8 1 N
+preplace netloc axis_switch_2to1_0_s00_axis_tready 1 4 1 2470
+preplace netloc axis_switch_2to1_0_m00_axis_tlast 1 5 1 3150
+preplace netloc data2ram_gs_rd_en_DO 1 6 2 NJ 260 4730
+preplace netloc TOF_cos_sl_0_reg_dcs0_or_dcs1_pulse_SO 1 3 3 1830 100 NJ 100 3200J
+preplace netloc reg_bank_0_cc_en_SO 1 2 5 1020J 780 1540J 990 NJ 990 3240J 810 3960
+preplace netloc reg_bank_0_ambient_comp_DO 1 2 5 750J -70 NJ -70 NJ -70 NJ -70 4070
+preplace netloc TOF_cos_sl_0_dist_offset_index_high_SO 1 3 3 NJ 1150 NJ 1150 3160
+preplace netloc reg_bank_0_image_bin_rem_sat_SO 1 2 5 870J 640 1750J 940 2590J 790 3140J 760 4030
+preplace netloc TOF_cos_sl_0_grey_pulse_out_SO 1 3 3 1680 90 NJ 90 3240J
+preplace netloc axis_switch_2to1_0_m00_axis_tdata 1 5 1 3170
+preplace netloc data2ram_dcs_dma_done_SO 1 5 2 3350 1880 4100
+preplace netloc TOF_cos_sl_0_dist_amp_sat_concat_DO 1 3 5 1770 1000 2540 660 N 660 N 660 4690
+preplace netloc processing_system7_1_FIXED_IO 1 8 1 NJ
+preplace netloc data2ram_gs_m00_axi 1 6 1 4190
+preplace netloc reg_bank_0_cc_update_reg_values_SO 1 2 5 960J 700 1650J 900 NJ 900 NJ 900 3830
+preplace netloc reg_bank_0_cc_init_bad_pix_SO 1 2 5 970J 770 1560J 960 NJ 960 3230J 790 3890
+preplace netloc data2axistream_v1_0_3_m00_axis_tstrb 1 4 1 2430
+preplace netloc dclk_in_1 1 0 1 N
+preplace netloc hsync_in_1 1 0 1 -10
+preplace netloc reg_bank_0_gs_subtract_en_SO 1 2 5 970J 1970 NJ 1970 NJ 1970 NJ 1970 4020
+preplace netloc reg_bank_0_dbg_pxl_index_DI 1 2 5 1010J 1960 NJ 1960 NJ 1960 NJ 1960 3840
+preplace netloc data2ram_dcs_wr_en_DO 1 6 2 NJ 550 4740
+preplace netloc data_in2_1 1 0 1 -30
+preplace netloc vsync_in_1 1 0 1 -20
+preplace netloc reg_bank_0_roi_br_y_DO 1 5 2 3330 2390 3900
+preplace netloc TOF_cos_sl_0_dcs_data_DO 1 3 3 1640 40 NJ 40 3250J
+preplace netloc xlconstant_1_dout 1 6 1 4080J
+preplace netloc reg_bank_0_roi_tl_y_DO 1 5 2 3310 2430 4030
+preplace netloc data2axistream_v1_0_4_m00_axis_tkeep 1 4 1 2460
+preplace netloc hsync_in3_1 1 0 1 20
+preplace netloc reg_bank_0_roi_br_x_DO 1 5 2 3320 2380 3910
+preplace netloc clockMux3_0_dclk_out 1 2 1 710
+preplace netloc axi_gpio_Sel_gpio_io_o 1 0 8 50 3650 N 3650 N 3650 N 3650 N 3650 3010 3930 3830 3820 N
+preplace netloc ip_mux_1_vsync_out 1 1 2 440 940 NJ
+preplace netloc reg_bank_0_pix_inter_dcs_en_SO 1 2 5 1010J 800 1590J 870 NJ 870 NJ 870 3980
+preplace netloc reg_bank_0_mult_fact_DO 1 2 5 950J 1990 NJ 1990 NJ 1990 NJ 1990 4010
+preplace netloc ps7_1_axi_periph_M05_AXI 1 5 1 3050
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 6 1 4060
+preplace netloc ip_mux_1_xsync_sat_out 1 1 2 480 980 N
+preplace netloc reg_bank_0_gs_dma_addr_DO 1 5 2 3260 1920 3870
+preplace netloc data2ram_gs_wr_en_DO 1 6 2 NJ 220 4750
+preplace netloc reg_bank_0_interf_thr_DO 1 2 5 990J 820 1550J 920 2580J 780 3080J 750 3970
+preplace netloc clockMux2_0_dclk_out2 1 1 1 480
+preplace netloc blk_mem_gen_dcs_doutb 1 5 3 3340J 650 NJ 650 NJ
+preplace netloc TOF_cos_sl_0_readRam_index_DO 1 3 3 NJ 1330 NJ 1330 3060
+preplace netloc ps7_1_axi_periph_M00_AXI 1 5 1 3350
+preplace netloc vsync_in1_1 1 0 1 -10
+preplace netloc TOF_cos_sl_0_grey_pulse_in_SO 1 3 3 1820 120 NJ 120 NJ
+preplace netloc data2ram_dcs_data_DO 1 2 5 730J -90 NJ -90 NJ -90 NJ -90 3870
+preplace netloc processing_system7_1_IIC_1 1 8 1 NJ
+preplace netloc hsync_in2_1 1 0 1 -20
+preplace netloc xlconstant_2_dout 1 6 1 4090J
+preplace netloc reg_bank_0_dcs_dma_addr_DO 1 5 2 3290 1900 3860
+preplace netloc vsync_in3_1 1 0 1 30
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 1 6 NJ 2600 NJ 2600 NJ 2600 2580 2500 NJ 2500 4010
+preplace netloc reg_bank_0_roi_full_y_DO 1 5 2 3350 2410 3880
+preplace netloc ps7_1_axi_periph_M01_AXI 1 5 1 3110
+preplace netloc processing_system7_1_FCLK_RESET0_N 1 0 9 60 3640 NJ 3640 NJ 3640 NJ 3640 NJ 3640 3040J 3940 NJ 3940 4750J 3730 5650
+preplace netloc data2ram_gs_dma_done_SO 1 5 2 3340 680 3860
+preplace netloc data2ram_gs_wr_addr_DO 1 6 2 NJ 180 4710
+preplace netloc axi_dma_SG_sort_M_AXI_S2MM 1 6 1 3970
+preplace netloc reg_bank_0_roi_full_x_DO 1 5 2 3340 2400 3890
+preplace netloc data2axistream_v1_0_3_m00_axis_tkeep 1 4 1 2490
+preplace netloc clockMux1_0_dclk_out1 1 1 1 450
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 9 50 880 N 880 710 580 1890 1280 2530 1280 3130 2510 4160 2510 4720 3050 5660
+preplace netloc axi_peri_resetn 1 1 6 470 2460 720J 2460 NJ 2460 2440 2460 3030 2490 3940
+preplace netloc data2ram_gs_rd_addr_DO 1 6 2 NJ 240 4740
+preplace netloc TOF_cos_sl_0_cc_dcs_length_DO 1 3 3 1620 30 NJ 30 3220J
+preplace netloc processing_system7_1_M_AXI_GP0 1 4 5 2600 -40 NJ -40 NJ -40 NJ -40 5660
+preplace netloc reg_bank_0_dist_dll_DO 1 2 5 790J 620 1720J 800 NJ 800 NJ 800 3950
+preplace netloc camera_ctrl_v1_0_0_tcmi_en 1 3 3 1850 380 2400J 230 3180
+preplace netloc reg_bank_0_dbg_pxl_count_DI 1 2 5 1000J 1950 NJ 1950 NJ 1950 NJ 1950 3850
+preplace netloc reg_bank_0_const_val_DO 1 2 5 800J 670 1860J 820 NJ 820 NJ 820 3940
+preplace netloc data2axistream_v1_0_4_m00_axis_tlast 1 4 1 2560
+preplace netloc data2ram_dcs_dma_busy_SO 1 5 2 3310 1910 4120
+preplace netloc TOF_cos_sl_0_readRam_pulse_SO 1 3 3 NJ 1310 NJ 1310 3110
+preplace netloc data_in1_1 1 0 1 -10
+preplace netloc TOF_cos_sl_0_dist_amp_sat_pulse_SO 1 3 1 1760
+preplace netloc gs_subtract_0_gs_DO 1 3 3 1630 80 NJ 80 NJ
+preplace netloc data2ram_dcs_wr_eof_done_SO 1 5 2 3330 330 3830
+preplace netloc ps7_1_axi_periph_M03_AXI 1 5 1 3090
+preplace netloc reg_bank_0_adc_inter_en_SO 1 2 5 850J 600 1840J 770 2520J 740 3040J 700 4080
+preplace netloc TOF_cos_sl_0_DbgBram_Data 1 3 4 1630 1910 NJ 1910 3050J 2460 4170J
+preplace netloc TOF_cos_sl_0_readRam_en_SO 1 3 3 NJ 1290 NJ 1290 3140
+preplace netloc processing_system7_1_DDR 1 8 1 NJ
+preplace netloc ip_mux_1_data_out 1 1 2 460 1000 NJ
+preplace netloc reg_bank_0_nb_dll_steps_DO 1 2 5 900J 810 1530J 980 NJ 980 3250 920 3870
+preplace netloc reg_bank_0_comp_en_SO 1 2 5 830J 680 1810J 910 NJ 910 NJ 910 3900
+preplace netloc data2ram_gs_dma_rdy_SO 1 5 2 3280 -20 3840
+preplace netloc TOF_cos_sl_0_cc_reset_regs_RO 1 3 3 NJ 1070 NJ 1070 3230
+preplace netloc axi_dma_SG_sort_s2mm_introut 1 0 8 60 2440 NJ 2440 NJ 2440 NJ 2440 NJ 2440 NJ 2440 3860 2680 4680
+preplace netloc axi_dma_SG_sort_M_AXI_SG 1 6 1 4040
+preplace netloc reg_bank_0_roi_tl_x_DO 1 5 2 3300 2420 4050
+preplace netloc reg_bank_0_alu_amp_corr_DO 1 2 5 930J 750 1790J 840 NJ 840 NJ 840 3880
+preplace netloc readRam_burst_1_ram_data_DO 1 2 5 980J 2450 NJ 2450 NJ 2450 NJ 2450 3830
+preplace netloc axi_mem_intercon_1_M00_AXI 1 7 1 4700
+preplace netloc hsync_in1_1 1 0 1 -20
+preplace netloc data2ram_gs_wr_data_DO 1 6 2 NJ 200 N
+preplace netloc data2ram_dcs_dma_rdy_SO 1 5 2 3320 1890 4110
+preplace netloc data2axistream_v1_0_3_m00_axis_tvalid 1 4 1 2450
+preplace netloc TOF_cos_sl_0_DbgBram_Addr 1 3 4 1840 1900 NJ 1900 3040J 2480 4130J
+preplace netloc ps7_1_axi_periph_M04_AXI 1 5 1 3240
+preplace netloc dclk_in3_1 1 0 1 N
+preplace netloc vsync_in2_1 1 0 1 -10
+preplace netloc reg_bank_0_alu_min_index_DO 1 2 5 940J 760 1570J 970 NJ 970 3210J 780 3910
+preplace netloc data2axistream_v1_0_4_m00_axis_tdata 1 4 1 2570
+preplace netloc TOF_cos_sl_0_dist_offset_fail_pos_DO 1 3 3 NJ 1110 NJ 1110 3200
+preplace netloc readRam_burst_1_M00_AXI 1 6 1 4180
+preplace netloc axi_gpio_power_reset_gpio_io_o 1 6 2 4190 3800 NJ
+preplace netloc reg_bank_0_ram_read_addr_DO 1 5 2 3350 2000 4040
+preplace netloc TOF_cos_sl_0_cc_sort_length_DO 1 3 1 1780
+preplace netloc TOF_cos_sl_0_en_d2r_wr_dcs_SO 1 3 3 1740 70 NJ 70 3190J
+preplace netloc reg_bank_0_pix_inter_dist_en_SO 1 2 5 820J 630 1900J 810 2570J 770 3070J 730 4060
+preplace netloc reg_bank_0_dist_corr_en_SO 1 2 5 840J 660 1730J 860 NJ 860 NJ 860 3930
+preplace netloc axi_mem_intercon_M00_AXI 1 7 1 4670
+preplace netloc ip_mux_1_hsync_out 1 1 2 450 960 NJ
+preplace netloc reg_bank_0_image_bin_en_SO 1 2 5 910J 650 1870J 830 NJ 830 NJ 830 3990
+preplace netloc reg_bank_0_cc_data_length_DO 1 2 5 860J -30 NJ -30 NJ -30 NJ -30 4020
+preplace netloc ps7_1_axi_periph_M07_AXI 1 5 1 3070
+preplace netloc data_in_1 1 0 1 0
+preplace netloc reg_bank_0_cc_line_length_DO 1 2 5 950J 790 1600J 880 NJ 880 NJ 880 3860
+preplace netloc TOF_cos_sl_0_en_d2r_gs_SO 1 3 3 1580 60 NJ 60 3020J
+preplace netloc ps7_1_axi_periph_M08_AXI 1 5 1 3060
+preplace netloc xsync_sat_in3_1 1 0 1 40
+preplace netloc xsync_sat_in1_1 1 0 1 -20J
+preplace netloc data2ram_gs_dma_busy_SO 1 5 2 3300 0 3830
+preplace netloc data2axistream_v1_0_4_m00_axis_tstrb 1 4 1 2390
+preplace netloc data2ram_dcs_m00_axi 1 6 1 4150
+preplace netloc reg_bank_0_cc_mode_SO 1 2 5 980J 730 1690J 890 NJ 890 NJ 890 3840
+preplace netloc TOF_cos_sl_0_dist_offset_index_low_SO 1 3 3 NJ 1130 NJ 1130 3210
+levelinfo -pg 1 -50 270 600 1300 2160 2830 3630 4510 5420 5680 -top -130 -bot 5540
+",
+}
+{
+   da_axi4_cnt: "3",
+   da_board_cnt: "3",
+   da_clkrst_cnt: "1",
+}

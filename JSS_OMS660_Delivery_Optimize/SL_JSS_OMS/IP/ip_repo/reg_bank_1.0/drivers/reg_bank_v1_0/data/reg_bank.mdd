@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER reg_bank
+	OPTION supported_peripherals = (reg_bank);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = reg_bank;
+END DRIVER

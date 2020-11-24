@@ -1,0 +1,176 @@
+*{
+    font-family: arial;
+    font-size: 10pt;
+}
+
+QStackedView{
+    border:none;
+}
+
+QWidget{
+    background-color:rgb(237, 239, 238);
+}
+
+QWidget#wStatus{
+    background-color:rgb(123,212,9);
+}
+
+QGroupBox{
+    border:none;
+}
+
+/************ QCheckBox ***************/
+
+QCheckBox{
+    background-color:transparent;
+}
+
+QCheckBox::indicator, QRadioButton::indicator{
+    width:12px;
+    height:12px;
+    background-color:rgb(35, 142, 194);
+    border: 1px solid rgb(0, 0, 0);
+}
+ 
+QCheckBox::indicator:checked {
+    image: url(:/icons/images/icons/checkbox_checked.png);
+}
+
+QRadioButton::indicator:checked{
+    image: url(:/icons/images/icons/radiobutton_checked.png);
+}
+
+QCheckBox::indicator:focus, QRadioButton::indicator:focus{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/************QComboBox ********************/
+
+QComboBox {
+    background-color:rgb(255,255,255);
+    border:1px solid rgb(0, 0, 0);
+}
+
+QComboBox::drop-down {
+    background-color:rgb(255,255,255);
+ }
+
+QComboBox:focus{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/************ QSpinBox *************************/
+
+QSpinBox, QDoubleSpinBox {
+    background-color:rgb(255,255,255);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+QSpinBox::up-button, QDoubleSpinBox::up-button {
+    image: url(:/icons/images/icons/spinbox_up.png);
+}
+
+QSpinBox::down-button, QDoubleSpinBox::down-button {
+    image: url(:/icons/images/icons/spinbox_down.png);
+}
+
+QSpinBox::up-button:hover, QDoubleSpinBox::up-button:hover{
+    background-color:rgb(76,55,108);
+    image: url(:/icons/images/icons/spinbox_up_hover.png);
+}
+QSpinBox:down-button:hover, QDoubleSpinBox:down-button:hover{
+    background-color:rgb(76,55,108);
+    image: url(:/icons/images/icons/spinbox_down_hover.png);
+}
+
+/**************** QToolButton *************/
+
+QToolButton, QPushButton{
+    padding:5px;
+    background-color:rgb(35, 142, 194);
+    border: 1px solid rgb(0, 0, 0);
+    color:rgb(255,255,255);
+    min-width: 60px;
+}
+
+QToolButton:hover, QPushButton:hover{
+    background-color:rgb(255, 214, 106);
+    color:rgb(0, 0, 0);
+}
+
+
+
+QToolButton:!enabled, QPushButton:!enabled{
+    background-color:transparent;
+    color:rgb(0, 0, 0);
+}
+
+QToolButton:focus, QPushButton:focus{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+QToolButton#tbSelectPath{
+    min-width: 90px;
+}
+
+
+/******** QListView, QLineEdit *****************/
+
+QListView{
+    color:rgb(0,0,0);
+    selection-color:rgb(51, 69, 204);
+    selection-background-color:rgb(255, 255, 255);
+    QListView { font: 8pt; }
+}
+
+QLineEdit{
+    background-color:rgb(255,255,255);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/*************** QLabel *************************/
+
+QLabel{
+    background-color:transparent;
+}
+
+QLabel#labelProduct{
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+QLabel{
+    background-color:rgba(255, 255, 255, 0);
+}
+
+
+QLabel#lMove0{
+    image: url(:/icons/images/icons/key_ctrl.png);
+}
+
+/************* QToolBar **********************/
+
+QToolBar { 
+    background-color:rgb(41, 87, 126);
+    border: 0px solid black;
+    qproperty-iconSize: 24px;
+}
+
+QToolBar > QToolButton { 
+    background-color:transparent;
+    border: none;
+    color:rgb(255,255,255);
+    width: 50%;
+}
+
+QToolBar > QToolButton:disabled{
+    color:rgb(153, 153, 153);
+}
+
+QToolBar > QToolButton:hover { 
+    color:rgb(0,0,0);
+}
+
+
+
