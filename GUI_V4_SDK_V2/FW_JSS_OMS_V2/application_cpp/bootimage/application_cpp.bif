@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\JSS_OMS660_Delivery_Optimize\FSBL.elf
+	C:\JSS_OMS660_Delivery200227\FW_JSS_OMS\BitStream\BS_4cam_ip1_2_3_4\jss_oms_top.bit
+	C:\JSS_OMS660_Delivery_Optimize\FW_JSS_OMS\application_cpp\Release\application_cpp.elf
+}

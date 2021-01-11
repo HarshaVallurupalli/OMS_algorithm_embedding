@@ -1,0 +1,80 @@
+<RCC>
+    <qresource prefix="/toolbar">
+        <file>images/toolbar/settings.png</file>
+        <file>images/toolbar/view2d.png</file>
+        <file>images/toolbar/view3d.png</file>
+        <file>images/toolbar/view.png</file>
+        <file>images/toolbar/command.png</file>
+        <file>images/toolbar/test.png</file>
+        <file>images/toolbar/log.png</file>
+        <file>images/toolbar/calibration.png</file>
+        <file>images/toolbar/calibration_hovered.png</file>
+        <file>images/toolbar/command_hovered.png</file>
+        <file>images/toolbar/log_hovered.png</file>
+        <file>images/toolbar/settings_hovered.png</file>
+        <file>images/toolbar/view_hovered.png</file>
+        <file>images/toolbar/save_load.png</file>
+        <file>images/toolbar/save_load_hover.png</file>
+        <file>images/toolbar/calibration_disabled.png</file>
+        <file>images/toolbar/log_disabled.png</file>
+        <file>images/toolbar/save_load_disabled.png</file>
+        <file>images/toolbar/command_disabled.png</file>
+        <file>images/toolbar/test_disabled.png</file>
+        <file>images/toolbar/test_hovered.png</file>
+        <file>images/toolbar/trigger.png</file>
+        <file>images/toolbar/trigger_disabled.png</file>
+        <file>images/toolbar/trigger_hovered.png</file>
+    </qresource>
+    <qresource prefix="/logo">
+        <file>images/logo/logo.png</file>
+        <file>images/logo/logo_tablet.png</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>images/icons/picture.png</file>
+        <file>images/icons/refresh.png</file>
+        <file>images/icons/testConnection.png</file>
+        <file>images/icons/videoStart.png</file>
+        <file>images/icons/videoStop.png</file>
+        <file>images/icons/rotateLeft.png</file>
+        <file>images/icons/rotateRight.png</file>
+        <file>images/icons/flipHorizontal.png</file>
+        <file>images/icons/flipVertical.png</file>
+        <file>images/icons/maximize.png</file>
+        <file>images/icons/styleMesh.png</file>
+        <file>images/icons/stylePoints.png</file>
+        <file>images/icons/warning_big.png</file>
+        <file>images/icons/checkbox_checked.png</file>
+        <file>images/icons/checkbox_checked_80_80.png</file>
+        <file>images/icons/spinbox_down.png</file>
+        <file>images/icons/spinbox_left.png</file>
+        <file>images/icons/spinbox_down_hover.png</file>
+        <file>images/icons/spinbox_left_hover.png</file>
+        <file>images/icons/spinbox_up.png</file>
+        <file>images/icons/spinbox_right.png</file>
+        <file>images/icons/spinbox_up_hover.png</file>
+        <file>images/icons/spinbox_right_hover.png</file>
+        <file>images/icons/failed.png</file>
+        <file>images/icons/important.png</file>
+        <file>images/icons/successful.png</file>
+        <file>images/icons/info.png</file>
+        <file>images/icons/horizontal.png</file>
+        <file>images/icons/key_alt.png</file>
+        <file>images/icons/key_ctrl.png</file>
+        <file>images/icons/mouse_left.png</file>
+        <file>images/icons/mouse_middle.png</file>
+        <file>images/icons/mouse_right.png</file>
+        <file>images/icons/plus.png</file>
+        <file>images/icons/shift.png</file>
+        <file>images/icons/vertical.png</file>
+        <file>images/icons/radiobutton_checked.png</file>
+        <file>images/icons/key_cmd.png</file>
+    </qresource>
+    <qresource prefix="/splash_screen">
+        <file>images/splash_screen/splash_screen.png</file>
+        <file>images/splash_screen/splash_screen_tablet.png</file>
+    </qresource>
+    <qresource prefix="/cursors">
+        <file>cursors/cursor_crosshair.png</file>
+    </qresource>  	
+
+</RCC>

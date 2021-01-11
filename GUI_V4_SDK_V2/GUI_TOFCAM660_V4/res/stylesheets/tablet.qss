@@ -1,0 +1,481 @@
+*{
+    font-family: arial;
+    font-size: 14pt;
+}
+
+QWidget{
+    background-color:rgb(237, 239, 238);
+}
+
+QWidget#wStatus{
+    background-color:rgb(237, 239, 238);
+}
+
+QWidget#WidgetPointCloudSettings{
+
+    min-width: 1800px;
+    width: 1800px;
+}
+
+
+QGroupBox{
+    border:none;
+}
+
+/********* QCheckBox ********************************/
+
+QCheckBox{
+    background-color:transparent;
+}
+
+QCheckBox#cbGrayPointCloud::indicator,
+QCheckBox#cbSurfaceInterconnect::indicator,
+QCheckBox#cbAxis3D::indicator,
+QCheckBox#cbAxis2D::indicator,
+QCheckBox#cbVerticalFlip::indicator,
+QCheckBox#cbHorizontalFlip::indicator,
+QCheckBox#cbGrid::indicator,
+QCheckBox#cbPoints::indicator,
+QCheckBox#cbCartesian::indicator,
+QCheckBox#cbUndistortion::indicator,
+QCheckBox#cbAutoRotating::indicator,
+QCheckBox#checkBoxAutoScale::indicator,
+QCheckBox#checkBoxShowLeft::indicator,
+QCheckBox#checkBoxShowRight::indicator
+{
+    width: 40px;
+    height: 40px;
+}
+
+QCheckBox::indicator{
+    width:60px;
+    height:60px;
+    background-color:rgb(35, 142, 194);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+QCheckBox::indicator:checked {
+    image: url(:/icons/images/icons/checkbox_checked_80_80.png);
+}
+
+
+QCheckBox::indicator:focus{
+    border: 0px solid rgb(0, 0, 0);
+}
+
+QRadioButton::indicator{
+    width:60px;
+    height:60px;
+    background-color:rgb(35, 142, 194);
+    border-radius: 30px;
+}
+
+/*************************************************/
+
+QRadioButton::indicator:checked{
+    image: url(:/icons/images/icons/radiobutton_checked.png);
+}
+
+QRadioButton::indicator:focus{
+    border: 0px solid rgb(128, 128, 128);
+}
+
+/*************************************************/
+
+QComboBox {
+    background-color:rgb(255,255,255);
+    border: 2px solid rgb(0, 0, 0);
+    padding-left: 10px;
+    font: 14pt;
+    min-width: 240px;
+    min-height: 80px;
+}
+
+QComboBox::drop-down {
+    background-color:rgb(255,255,255);
+ }
+
+QComboBox:focus{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/**************************************************/
+
+QSpinBox, QDoubleSpinBox {
+    background-color:rgb(255,255,255);
+    border: 1px solid rgb(0, 0, 0);
+    padding-left: 10px;
+    width: 320px;
+    min-width: 320px;
+    height: 80px;
+}
+
+QSpinBox::up-button, QDoubleSpinBox::up-button {
+    image: url(:/icons/images/icons/spinbox_right.png);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+QSpinBox::down-button, QDoubleSpinBox::down-button {
+    image: url(:/icons/images/icons/spinbox_left.png);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+QSpinBox::up-button:hover, QDoubleSpinBox::up-button:hover{    
+    border: 2px solid rgb(0, 0, 0);
+    image: url(:/icons/images/icons/spinbox_right_hover.png);
+}
+
+QSpinBox:down-button:hover, QDoubleSpinBox:down-button:hover{    
+    border: 2px solid rgb(0, 0, 0);
+    image: url(:/icons/images/icons/spinbox_left_hover.png);
+}
+
+
+QSpinBox::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: right;
+    width: 80px;
+    height: 80px;
+}
+
+QSpinBox::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: left;
+    width: 80px;
+    height: 80px;
+}
+
+QDoubleSpinBox::up-button {
+    subcontrol-origin: border;
+    subcontrol-position: right;
+    width: 80px;
+    height: 80px;
+}
+
+QDoubleSpinBox::down-button {
+    subcontrol-origin: border;
+    subcontrol-position: left;
+    width: 80px;
+    height: 80px;
+}
+
+
+QSpinBox#sbSurfaceInterconnect::up-button,
+QSpinBox#sbSurfaceInterconnect::down-button,
+QDoubleSpinBox#dbPointSize::up-button,
+QDoubleSpinBox#dbPointSize::down-button
+{
+    width: 60px;
+    height: 60px;
+}
+
+QSpinBox#sbSurfaceInterconnect{
+    min-width: 160px;
+    width: 160px;
+    min-height: 60px;
+    height: 60px;
+}
+
+QDoubleSpinBox#dbPointSize{
+    min-height: 60px;
+    height: 60px;
+    min-width: 160px;
+    width: 160px;
+}
+
+
+QDoubleSpinBox#sbFps{
+    min-width: 210px;
+    width: 210px;
+
+}
+
+
+QSpinBox#spinBoxLeftMin::up-button,
+QSpinBox#spinBoxLeftMax::up-button,
+QSpinBox#spinBoxRightMin::up-button,
+QSpinBox#spinBoxRightMax::up-button,
+QSpinBox#spinBoxNumberOfValues::up-button,
+
+QSpinBox#spinBoxLeftMin::down-button,
+QSpinBox#spinBoxLeftMax::down-button,
+QSpinBox#spinBoxRightMin::down-button,
+QSpinBox#spinBoxRightMax::down-button,
+QSpinBox#spinBoxNumberOfValues::down-button
+{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+QSpinBox#spinBoxNumberOfValues,
+QSpinBox#spinBoxLeftMin,
+QSpinBox#spinBoxLeftMax,
+QSpinBox#spinBoxRightMin,
+QSpinBox#spinBoxRightMax,
+QSpinBox#spinBoxNumberOfValues
+{
+    min-height: 60px;
+    height: 60px;
+    min-width: 160px;
+    width: 160px;
+}
+
+QSpinBox#sbTopLeftX,
+QSpinBox#sbTopLeftY,
+QSpinBox#sbBottomRightX,
+QSpinBox#sbBottomRightY
+{
+    min-height: 80px;
+    height: 80px;
+    min-width: 240px;
+    width: 240px;
+
+}
+
+
+QDoubleSpinBox#dbAxisTransparent,
+QDoubleSpinBox#sbdTransparent,
+QDoubleSpinBox#dbScaleX, QDoubleSpinBox#dbScaleY, QDoubleSpinBox#dbScaleZ,
+QDoubleSpinBox#dbZoom,
+QSpinBox#sbAxisOffsetX, QSpinBox#sbAxisOffsetY, QSpinBox#sbAxisOffsetZ,
+QSpinBox#sbAxisLineWidth,
+QSpinBox#sbCellWidth,
+QSpinBox#sbNumCells,
+QSpinBox#sbOffsetX, QSpinBox#sbOffsetY, QSpinBox#sbOffsetZ,
+QSpinBox#sbLensAngle,
+QSpinBox#sbAngleObjectZ,
+QSpinBox#sbObjectOffsetX, QSpinBox#sbObjectOffsetY, QSpinBox#sbObjectOffsetZ,
+QSpinBox#sbAngleX, QSpinBox#sbAngleY, QSpinBox#sbAngleZ,
+QSpinBox#sbCameraOffesetX, QSpinBox#sbCameraOffesetY
+{
+    min-width: 280px;
+    width: 280px;
+    font-size: 13pt;
+}
+
+
+
+/*********** QToolButton, QPushButton ************************/
+
+QToolButton, QPushButton{
+    padding:5px;
+    background-color:rgb(35, 142, 194);
+    border: 2px solid rgb(0, 0, 0);
+    color:rgb(255,255,255);
+    min-width: 200px;
+    min-height: 80px;
+}
+
+QToolButton:hover, QPushButton:hover{
+    background-color:rgb(255, 214, 106);
+    color:rgb(0, 0, 0);
+}
+
+QToolButton:!enabled, QPushButton:!enabled{
+    background-color:transparent;
+    color:rgb(0, 0, 0);
+}
+
+QToolButton:focus, QPushButton:focus{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+QPushButton#pushButtonLogo{
+    width: 320x;
+    height: 160px;
+    min-width: 320px;
+    min-height: 160px;
+}
+
+QToolButton#tbFront, QToolButton#tbSide, QToolButton#tbTop{
+    height: 60px;
+    min-height: 60px;
+
+    width: 80px;
+    min-width: 80px;
+}
+
+QToolButton#tbPixelInfo,
+QToolButton#tbPixelScope,
+QToolButton#tbTimeScope,
+QToolButton#tbDefaultRoi{
+
+    height: 60px;
+    min-height: 60px;
+
+}
+
+QToolButton#tbRoi,
+QToolButton#tbShowControls, QToolButton#tbReset, QToolButton#tbFullScreenPC, QToolButton#tbSettings{
+    height: 60px;
+    min-height: 60px;
+
+    width: 150px;
+    min-width: 150px;
+}
+
+QToolButton#tbFullScreen{
+    height: 60px;
+    min-height: 60px;
+}
+
+QPushButton#pushButtonSingle, QPushButton#pushButtonStream{
+
+    qproperty-iconSize: 64px;
+}
+
+
+QToolButton#tbRecord, QToolButton#tbPlay, QToolButton#tbStop,
+QPushButton#pushButtonSingle, QPushButton#pushButtonStream
+{
+    min-width: 200px;
+    width: 200px;
+    min-height: 80px;
+    height: 80px;
+}
+
+/*****************************************************************/
+
+QListView{
+    color:rgb(0,0,0);
+    selection-color:rgb(51, 69, 204);
+    selection-background-color:rgb(255, 255, 255);
+    font: 14pt;
+}
+
+QLineEdit{
+    background-color:rgb(255,255,255);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+QLineEdit#lineEditIP,
+QLineEdit#leFolderPath,
+QLineEdit#leFileName{
+    height: 60px;
+    font-family: arial;
+    font-size: 14pt;
+}
+
+/**********  QLabel  **********************************************/
+
+QLabel{   
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+QLabel#labelProduct{
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+QLabel#labelIntegrationTime3d0{
+     background-color: rgba(255, 255, 255, 0);
+}
+
+QLabel#labelIntegrationTime3d0{
+    font-size: 14pt;
+}
+
+
+QLabel#lMove0{
+    image: url(:/icons/images/icons/key_ctrl.png);
+}
+
+QLabel#lAxisOffsetX,
+QLabel#lAxisOffsetY,
+QLabel#lAxisOffsetZ,
+QLabel#lAxisLineWidth,
+QLabel#lAxisTransparent,
+QLabel#lCellWidth,
+QLabel#lNumberCells,
+QLabel#lGridTransparent,
+QLabel#lGridOffsetX,
+QLabel#lGridOffsetY,
+QLabel#lGridOffsetZ,
+QLabel#lLensAngle,
+QLabel#lAngleZ,
+QLabel#lObjectOffsetX,
+QLabel#lObjectOffsetY,
+QLabel#lObjectOffsetZ,
+QLabel#lScaleX,
+QLabel#lScaleY,
+QLabel#lScaleZ,
+QLabel#lCameraAngleX,
+QLabel#lCameraAngleY,
+QLabel#lCameraAngleZ,
+QLabel#lCameraOffesetX,
+QLabel#lCameraOffesetY,
+QLabel#lZoom
+{
+    font-size: 13pt;
+}
+
+/*********************************/
+
+QToolTip{
+    border: 1px solid rgb(0,0,0);
+    background-color:rgb(255, 229, 200);
+}
+
+/**************  QToolBar  ******************************/
+
+QToolBar {
+    background-color:rgb(41, 87, 126);
+    border: 0px solid black;   
+    qproperty-iconSize:64px;
+    max-width: 200px;
+}
+
+QToolBar > QToolButton {    
+    background-color:transparent;
+    border: none;
+    color:rgb(255,255,255);
+    width: 100%;
+}
+
+QToolBar > QToolButton:disabled{
+    color:rgb(153, 153, 153);
+}
+
+QToolBar > QToolButton:hover {
+    color:rgb(0,0,0);
+}
+
+/**************  QScrollBar  **************************/
+
+QScrollBar:vertical{
+    width: 100px;
+}
+
+/************* QSlider ********/
+
+QSlider{
+    height: 100px;
+}
+
+QSlider::groove:horizontal {
+    border: 1px solid #999999;
+    height: 100px;
+    /*background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #B1B1B1, stop:1 #c4c4c4);*/
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #CFCFCF, stop:1 #E2E2E2);
+    margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #b4b4b4, stop:1 #8f8f8f);
+    border: 1px solid #5c5c5c;
+    width: 50px;
+    margin: -2px 0; /* handle is placed by default on the contents rect of the groove. Expand outside the groove */
+    border-radius: 3px;
+}
+
+/*********** QListWidget *************************/
+
+QListWidget{
+    font-family: arial;
+    font-size: 20pt;
+}
+

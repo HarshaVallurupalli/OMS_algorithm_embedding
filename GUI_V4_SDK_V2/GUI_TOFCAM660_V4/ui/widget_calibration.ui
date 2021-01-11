@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WidgetCalibration</class>
+ <widget class="QWidget" name="WidgetCalibration">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>485</width>
+    <height>293</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>10</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QLabel" name="labelTitle">
+     <property name="styleSheet">
+      <string notr="true">padding:10px;
+/*background-color:rgb(66, 138, 200);*/
+/*background-color:rgb(76, 55, 108);*/
+background-color:rgb(51, 51, 51);
+color:rgb(255,255,255);
+</string>
+     </property>
+     <property name="text">
+      <string>Calibration / Debug</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="2" colspan="2">
+       <widget class="QCheckBox" name="checkBoxVerifyOnly">
+        <property name="text">
+         <string>Verify only</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="3">
+       <widget class="QSpinBox" name="spinBoxCommand2">
+        <property name="maximum">
+         <number>255</number>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Calibration</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="13">
+       <widget class="QLineEdit" name="lineEditDescription1"/>
+      </item>
+      <item row="8" column="3">
+       <widget class="QSpinBox" name="spinBoxCommand1">
+        <property name="maximum">
+         <number>255</number>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="4" colspan="9">
+       <widget class="QLineEdit" name="lineEditData1"/>
+      </item>
+      <item row="1" column="7" colspan="7">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>178</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="11" column="3">
+       <widget class="QSpinBox" name="spinBoxCommand3">
+        <property name="maximum">
+         <number>255</number>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="4" colspan="9">
+       <widget class="QLineEdit" name="lineEditData0">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>1</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QCheckBox" name="checkBoxOffsetOnly">
+        <property name="text">
+         <string>Offset only</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="pushButtonProductionCalibration">
+        <property name="text">
+         <string>Production Calibration</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="4" colspan="9">
+       <widget class="QLineEdit" name="lineEditData3"/>
+      </item>
+      <item row="7" column="0">
+       <widget class="QPushButton" name="pushButtonDebugCommand0">
+        <property name="text">
+         <string>DebugCommand</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="0">
+       <widget class="QPushButton" name="pushButtonDebugCommand3">
+        <property name="text">
+         <string>DebugCommand</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>command</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="13">
+       <widget class="QLineEdit" name="lineEditDescription0"/>
+      </item>
+      <item row="10" column="4" colspan="9">
+       <widget class="QLineEdit" name="lineEditData2"/>
+      </item>
+      <item row="4" column="13">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Description</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0">
+       <widget class="QPushButton" name="pushButtonDebugCommand2">
+        <property name="text">
+         <string>DebugCommand</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="5">
+       <widget class="QSpinBox" name="spinBoxIndex">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>0</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="3">
+       <widget class="QSpinBox" name="spinBoxCommand0">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximum">
+         <number>255</number>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="4">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>data</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QPushButton" name="pushButtonDebugCommand1">
+        <property name="text">
+         <string>DebugCommand</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" colspan="14">
+       <widget class="Line" name="line">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="0" colspan="14">
+       <widget class="QTextEdit" name="textEditCalibration">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="13">
+       <widget class="QLineEdit" name="lineEditDescription3"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="pushButtonCalibration">
+        <property name="text">
+         <string>Calibrate DRNU</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="13">
+       <widget class="QLineEdit" name="lineEditDescription2"/>
+      </item>
+      <item row="1" column="6">
+       <widget class="QLabel" name="lIndex">
+        <property name="text">
+         <string>Index</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Debug</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

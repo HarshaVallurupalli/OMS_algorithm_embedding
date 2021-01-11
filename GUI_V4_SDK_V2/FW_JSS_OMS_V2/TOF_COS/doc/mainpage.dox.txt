@@ -1,0 +1,26 @@
+/**
+\mainpage TOF_COS
+
+Description
+-----------
+-----------
+
+The TOF_COS provides easy access to the Espros Time Of Flight imager. It provides everything to operate the sensor:
+- Start up the sensor
+- Setup the sensor
+- Acquire the data
+- Compensate the data
+- Error handling
+
+The output is a compensated distance information
+
+Usage
+-----------
+-----------
+\code
+
+TBD
+
+\endcode
+
+*/

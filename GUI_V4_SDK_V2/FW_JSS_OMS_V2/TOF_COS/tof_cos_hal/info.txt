@@ -1,0 +1,26 @@
+This folder contains HAL (Hardware Abstraction Layer) drivers needed by the TOFCOS library. 
+
+If a certain hardware is only needed by the TOFCOS, the drivers may just be placed in this folder.
+
+If a hardware is needed by the TOFCOS and the application (e.g. I2C), an intermediated driver can be placed here to encacsulate the HW access of the TOFCOS.
+
+
+HW only used by TOFCOS:
+
+TOFCOS
+------
+tof_cos_hal
+------
+HW
+
+
+
+HW also used by application:
+
+TOFCOS
+------
+tof_cos_hal          Application
+--------------------------------
+              hal
+--------------------------------
+              HW
